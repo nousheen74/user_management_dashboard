@@ -59,21 +59,16 @@ A simple and responsive web application for managing user details, including vie
 
 ### Directory Structure and Components Explanation
 
-umd_assignment/
-├── my_app/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── UserList.js
-│   │   │   ├── UserForm.js
-│   │   │   ├── ErrorBoundary.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── App.css
-│   │   ├── UserForm.css
-│   │   ├── UserList.css
-│   └── package.json
-└── README.md
+src/
+├── components/
+│   ├── UserList.js       # Displays the list of users with options to add, edit, and delete.
+│   ├── UserList.css      # Styling specific to the UserList component.
+│   ├── UserForm.js       # A reusable form component for adding or editing user details.
+│   ├── UserForm.css      # Styling specific to the UserForm component.
+│   ├── ErrorBoundary.js  # Handles and displays errors gracefully in the app.
+├── App.js                # Root component that integrates all components.
+├── index.js              # Entry point for the React application.
+
 
 ### Root Folder (umd_assignment/)
 + my_app/: Contains the React application files.
